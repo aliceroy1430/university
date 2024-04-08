@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="tulogo.jpg" height="50px"></a>
+            <div class="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="AffiliatedCollegeList.pdf">COLLEGE LIST</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()">
+            </i>
+        </nav>
+        <div class="text-box" >
+            <h1>Telangana University</h1>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>
+            All UG, PG, PHD Courses
+        </p>
+        <div class="row">
+            <div class="course-col">
+            <h3>UG Courses</h3>
+            <P>BSC, BBA, BCOM, BA, BTECH, BE, B.arch, BCA</P>
+        </div>
+            <div class="course-col">
+            <h3>PG Courses</h3>
+            <P>MSC, MBA, MCOM, MA, MTECH, MCA</P>
+        </div>
+            <div class="course-col">
+            <h3>PHD Courses</h3>
+            <P>Law, Psychology, Mathematics, Biotechnology, Genitics, Computer Science, Chemistry, Archeology</P>
+        </div>
+        </div>
+    </section>
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Make Your Future Bright</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="TU2.jpg" height="300px">
+                <div class="layer">
+                    <h3>ENTRANCE</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="TelanganaUniversity.jpg" height="300px">
+                <div class="layer">
+                    <h3>BUILDING</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="TU3.jpg" height="300px">
+                <div class="layer">
+                    <h3>LIBRARY</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Libraries, Sporting Facilities, Cafeteria, Health Services, Computer Laboratories, Accomodation Facilities, Student Hubs, Practical Labs.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="sports.jpg" height="250px" >
+               <h3>SPORTS</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="Labs.jpg" height="250px">
+               <h3>LABS</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="Accomo.jpg" height="250px">
+               <h3>ACCOMODATION</h3>
+            </div>
+            </div>
+    </section>
+    <!-- testimonials -->
+    <section class="testimonials">
+        <h1> What our student says</h1>
+        <p>Amazing Experience! The geographical position and climate is really good. The Faculty is Well Experienced and Highly Professionals. College Ambience is Fascinating.</p>
+    </section>
+     <!-----call to action---->
+     <section class="cta">
+      <h1>Enroll For Our Various Online Courses<br>Anywhere From Telangana</h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+     </section>
+     <!-------footer------->
+
+     <section class="footer">
+        <h4>About us</h4>
+        <p>Telangana University was established through Act No 28 Of the state government in the year 2006. The University was established with an objective to make the Higher Education accessible to the educationally backward District of Nizamabad in Telangana. The University is the first among the newly formed Universities in the state. It is the third largest university next to Osmania University and Kakatiya University in Telangana state. It has the largest number of Courses(26) and also the First University to launch Ph.D Programme in a total of 13 Disciplines among all the newly formed universities in the state. The TU has three different and Spacious Campuses i.e., Main campus at Dichpally, South Campus at Bhiknoor and the third campus is at Sarangapur. </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p></p>
+     </section>
+     <!------java script for toggle menu-------->
+    <script>
+        var navlinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
